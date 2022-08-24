@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Arapey&family=Fleur+De+Leah&family=Sail&display=swap" rel="stylesheet">
+</head> 
+<body>
+<!--script src="slideshow.js"></script-->
+    <header>
+        <div id="logoIcon">
+            <div id="logoIconPan">
+                <div id="logoIconPanTop"></div>
+                <div id="logoIconPanStem"></div>
+                <div id="logoIconPanLid"></div>
+                <div id="logoIconPanLidCover">
+</div>
+                <div id="logoIconPanBase"></div>
+            </div>
+            <h3 id="logoIconFoodText">FOOD</h3>
+            <h3 id="logoIconLoversText">LOVERS</h3>
+            <small id="logoIconWebsite">www.foodlovers.com</small>
+      </div>
+      <div id="headerIconsParent">
+            <img id="spaghettiImg" 
+            src="https://res.cloudinary.com/dna2rl6qw/image/upload/v1661360516/Project%20Screenshots/Food_Lovers_Spaghetti_Icon_teq8ct.webp"
+            alt="Spaghetti Icon"> 
+            <img id="wineImg" 
+            src="https://res.cloudinary.com/dna2rl6qw/image/upload/v1661360527/Project%20Screenshots/Food_Lovers_Wine_Icon_kalrjl.jpg" 
+            alt="Wine Icon">
+            <img id="lobsterImg" src="https://static.thenounproject.com/png/19924-200.png" 
+            alt="Lobster Icon">
+       </div>
+       <nav id="navBar">
+         <a class="navItem" id="home">Home</a>
+         <a class="navItem" id="about">About</a>
+         <a class="navItem" id="registration">Registration</a>
+         <a class="navItem" id="contact">Contact</a>
+         <input id="searchBar" type="text" placeholder="Search...">
+       </nav>
+    </header>
+    <section>
+        <h1 class="sectionHeader" id="topSectionHeader">Exquisite Cuisines</h1>
+        <h1 class="sectionHeader" id="bottomSectionHeader">Affordable Prices</h1>
+        <p id="mainParagraph">
+  Here at Food Lovers we aim to provide top of the line meals without breaking the bank. We offer dine in and 
+  carry out with a wide array of menu items ranging from the greatest delicacies that the ocean has to offer 
+  to authentic italian dishes, not to mention the wine! Pair that with a fun, family friendly environment and 
+  you have the Food Lovers experience, we hope to see you soon!         
+        </p>
+        <div id="dishImgSlideshow">
+            <img class="dishImg" id="spaghettiDishImg" 
+            src="https://norecipes.com/wp-content/uploads/2020/02/spaghetti-meat-sauce-012.jpg" 
+            alt="Spaghetti">
+            <img class="dishImg" id="shrimpDishImg" 
+            src="https://p300-americantownscom.netdna-ssl.com/img/article/ok-seafood-restaurant-1.jpg" 
+            alt="Shrimp">
+            <img class="dishImg" id="cheesecakeDishImg" 
+            src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/12/9/0/FNK_Cheesecake_s4x3.jpg.rend.hgtvcom.616.462.suffix/1387411272847.jpeg" 
+            alt="Cheesecake">
+            <img class="dishImg" id="wineDishImg" 
+            src="https://cdn.broadsheet.com.au/cache/07/66/076626958e2bf42fa86c7e5c17f7b401.jpg" 
+            alt="Wine Bottles">
+            <img class="dishImg" id="saladDishImg" 
+            src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-190611-mandarin-orange-salad-281-landscape-pf-1561556605.png" 
+            alt="Salad">
+        </div>
+    </section>
+    <footer>
+        <div id="botLeftDesign">
+            <div class="blDesign" id="bldLeftEdge"></div>
+            <div class="blDesign" id="bldLeftCurve"></div>
+            <div class="blDesign" id="topRound"></div>
+            <div class="blDesign" id="middleFill"></div>
+            <div class="blDesign" id="middleCover"></div>
+            <div class="blDesign" id="middleCover2"></div>
+            <div class="blDesign" id="bldBot"></div>
+            <div class="blDesign" id="rightRound"></div>
+            <img id="breadIcon" 
+            src="data:image/png;base64,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" 
+            alt="breadIcon">
+        </div>
+        <div id="checkerPattern">
+            <img class="checker" id="checker1" 
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAABlBMVEUAAAD///+l2Z/dAAABtklEQVR4nO3PwQkDARRCwaT/plPBPwhLdGEs4OF8Psm+yUbK2QgJG+VshISNcjZCwkY5GyFho5yNkLBRzkZI2ChnIyRslLMREjbK2QgJG+VshISNcjZCwkY5GyFho5yNkLBRzkZI2ChnI5wUvvF0Vl75QUh4l1d+EBLe5ZUfhIR3eeUHIeFdXvlBSHiXV34QEt7llR+EhHd55Qch4V1e+UFIeJdXfhAS3uWVH4SEd3nlByHhXV75QUh4l1d+EBLe5ZUfhP8pv/P0yA9CwqdGSNgoZyMkbJSzERI2ytkICRvlbISEjXI2QsJGORshYaOcjZCwUc5GSNgoZyMkbJSzERI2ytkICRvlbISEjXI2wknhG09n5ZUfhIR3eeUHIeFdXvlBSHiXV34QEt7llR+EhHd55Qch4V1e+UFIeJdXfhAS3uWVH4SEd3nlByHhXV75QUh4l1d+EBLe5ZUfhIR3eeUHIeFdXvlB+J/yO0+P/CAkfGqEhI1yNkLCRjkbIWGjnI2QsFHORkjYKGcjJGyUsxESNsrZCAkb5WyEhI1yNkLCRjkbIWGjnI2QsFHORkjYKGcjXBT+ADvYXu2MYPd9AAAAAElFTkSuQmCC"
+            alt="Checker Pattern">
+            <img class="checker" id="checker2" 
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAABlBMVEUAAAD///+l2Z/dAAABtklEQVR4nO3PwQkDARRCwaT/plPBPwhLdGEs4OF8Psm+yUbK2QgJG+VshISNcjZCwkY5GyFho5yNkLBRzkZI2ChnIyRslLMREjbK2QgJG+VshISNcjZCwkY5GyFho5yNkLBRzkZI2ChnI5wUvvF0Vl75QUh4l1d+EBLe5ZUfhIR3eeUHIeFdXvlBSHiXV34QEt7llR+EhHd55Qch4V1e+UFIeJdXfhAS3uWVH4SEd3nlByHhXV75QUh4l1d+EBLe5ZUfhP8pv/P0yA9CwqdGSNgoZyMkbJSzERI2ytkICRvlbISEjXI2QsJGORshYaOcjZCwUc5GSNgoZyMkbJSzERI2ytkICRvlbISEjXI2wknhG09n5ZUfhIR3eeUHIeFdXvlBSHiXV34QEt7llR+EhHd55Qch4V1e+UFIeJdXfhAS3uWVH4SEd3nlByHhXV75QUh4l1d+EBLe5ZUfhIR3eeUHIeFdXvlB+J/yO0+P/CAkfGqEhI1yNkLCRjkbIWGjnI2QsFHORkjYKGcjJGyUsxESNsrZCAkb5WyEhI1yNkLCRjkbIWGjnI2QsFHORkjYKGcjXBT+ADvYXu2MYPd9AAAAAElFTkSuQmCC"
+            alt="Checker Pattern">
+            <img class="checker" id="checker3" 
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAABlBMVEUAAAD///+l2Z/dAAABtklEQVR4nO3PwQkDARRCwaT/plPBPwhLdGEs4OF8Psm+yUbK2QgJG+VshISNcjZCwkY5GyFho5yNkLBRzkZI2ChnIyRslLMREjbK2QgJG+VshISNcjZCwkY5GyFho5yNkLBRzkZI2ChnI5wUvvF0Vl75QUh4l1d+EBLe5ZUfhIR3eeUHIeFdXvlBSHiXV34QEt7llR+EhHd55Qch4V1e+UFIeJdXfhAS3uWVH4SEd3nlByHhXV75QUh4l1d+EBLe5ZUfhP8pv/P0yA9CwqdGSNgoZyMkbJSzERI2ytkICRvlbISEjXI2QsJGORshYaOcjZCwUc5GSNgoZyMkbJSzERI2ytkICRvlbISEjXI2wknhG09n5ZUfhIR3eeUHIeFdXvlBSHiXV34QEt7llR+EhHd55Qch4V1e+UFIeJdXfhAS3uWVH4SEd3nlByHhXV75QUh4l1d+EBLe5ZUfhIR3eeUHIeFdXvlB+J/yO0+P/CAkfGqEhI1yNkLCRjkbIWGjnI2QsFHORkjYKGcjJGyUsxESNsrZCAkb5WyEhI1yNkLCRjkbIWGjnI2QsFHORkjYKGcjXBT+ADvYXu2MYPd9AAAAAElFTkSuQmCC"
+            alt="Checker Pattern">
+            <img class="checker" id="checker4" 
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAABlBMVEUAAAD///+l2Z/dAAABtklEQVR4nO3PwQkDARRCwaT/plPBPwhLdGEs4OF8Psm+yUbK2QgJG+VshISNcjZCwkY5GyFho5yNkLBRzkZI2ChnIyRslLMREjbK2QgJG+VshISNcjZCwkY5GyFho5yNkLBRzkZI2ChnI5wUvvF0Vl75QUh4l1d+EBLe5ZUfhIR3eeUHIeFdXvlBSHiXV34QEt7llR+EhHd55Qch4V1e+UFIeJdXfhAS3uWVH4SEd3nlByHhXV75QUh4l1d+EBLe5ZUfhP8pv/P0yA9CwqdGSNgoZyMkbJSzERI2ytkICRvlbISEjXI2QsJGORshYaOcjZCwUc5GSNgoZyMkbJSzERI2ytkICRvlbISEjXI2wknhG09n5ZUfhIR3eeUHIeFdXvlBSHiXV34QEt7llR+EhHd55Qch4V1e+UFIeJdXfhAS3uWVH4SEd3nlByHhXV75QUh4l1d+EBLe5ZUfhIR3eeUHIeFdXvlB+J/yO0+P/CAkfGqEhI1yNkLCRjkbIWGjnI2QsFHORkjYKGcjJGyUsxESNsrZCAkb5WyEhI1yNkLCRjkbIWGjnI2QsFHORkjYKGcjXBT+ADvYXu2MYPd9AAAAAElFTkSuQmCC"
+            alt="Checker Pattern"> 
+            <img class="checker" id="checker5" 
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAABlBMVEUAAAD///+l2Z/dAAABtklEQVR4nO3PwQkDARRCwaT/plPBPwhLdGEs4OF8Psm+yUbK2QgJG+VshISNcjZCwkY5GyFho5yNkLBRzkZI2ChnIyRslLMREjbK2QgJG+VshISNcjZCwkY5GyFho5yNkLBRzkZI2ChnI5wUvvF0Vl75QUh4l1d+EBLe5ZUfhIR3eeUHIeFdXvlBSHiXV34QEt7llR+EhHd55Qch4V1e+UFIeJdXfhAS3uWVH4SEd3nlByHhXV75QUh4l1d+EBLe5ZUfhP8pv/P0yA9CwqdGSNgoZyMkbJSzERI2ytkICRvlbISEjXI2QsJGORshYaOcjZCwUc5GSNgoZyMkbJSzERI2ytkICRvlbISEjXI2wknhG09n5ZUfhIR3eeUHIeFdXvlBSHiXV34QEt7llR+EhHd55Qch4V1e+UFIeJdXfhAS3uWVH4SEd3nlByHhXV75QUh4l1d+EBLe5ZUfhIR3eeUHIeFdXvlB+J/yO0+P/CAkfGqEhI1yNkLCRjkbIWGjnI2QsFHORkjYKGcjJGyUsxESNsrZCAkb5WyEhI1yNkLCRjkbIWGjnI2QsFHORkjYKGcjXBT+ADvYXu2MYPd9AAAAAElFTkSuQmCC"
+            alt="Checker Pattern">
+            <img class="checker" id="checker6" 
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAABlBMVEUAAAD///+l2Z/dAAABtklEQVR4nO3PwQkDARRCwaT/plPBPwhLdGEs4OF8Psm+yUbK2QgJG+VshISNcjZCwkY5GyFho5yNkLBRzkZI2ChnIyRslLMREjbK2QgJG+VshISNcjZCwkY5GyFho5yNkLBRzkZI2ChnI5wUvvF0Vl75QUh4l1d+EBLe5ZUfhIR3eeUHIeFdXvlBSHiXV34QEt7llR+EhHd55Qch4V1e+UFIeJdXfhAS3uWVH4SEd3nlByHhXV75QUh4l1d+EBLe5ZUfhP8pv/P0yA9CwqdGSNgoZyMkbJSzERI2ytkICRvlbISEjXI2QsJGORshYaOcjZCwUc5GSNgoZyMkbJSzERI2ytkICRvlbISEjXI2wknhG09n5ZUfhIR3eeUHIeFdXvlBSHiXV34QEt7llR+EhHd55Qch4V1e+UFIeJdXfhAS3uWVH4SEd3nlByHhXV75QUh4l1d+EBLe5ZUfhIR3eeUHIeFdXvlB+J/yO0+P/CAkfGqEhI1yNkLCRjkbIWGjnI2QsFHORkjYKGcjJGyUsxESNsrZCAkb5WyEhI1yNkLCRjkbIWGjnI2QsFHORkjYKGcjXBT+ADvYXu2MYPd9AAAAAElFTkSuQmCC"
+            alt="Checker Pattern">
+            <img class="checker" id="checker7" 
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAABlBMVEUAAAD///+l2Z/dAAABtklEQVR4nO3PwQkDARRCwaT/plPBPwhLdGEs4OF8Psm+yUbK2QgJG+VshISNcjZCwkY5GyFho5yNkLBRzkZI2ChnIyRslLMREjbK2QgJG+VshISNcjZCwkY5GyFho5yNkLBRzkZI2ChnI5wUvvF0Vl75QUh4l1d+EBLe5ZUfhIR3eeUHIeFdXvlBSHiXV34QEt7llR+EhHd55Qch4V1e+UFIeJdXfhAS3uWVH4SEd3nlByHhXV75QUh4l1d+EBLe5ZUfhP8pv/P0yA9CwqdGSNgoZyMkbJSzERI2ytkICRvlbISEjXI2QsJGORshYaOcjZCwUc5GSNgoZyMkbJSzERI2ytkICRvlbISEjXI2wknhG09n5ZUfhIR3eeUHIeFdXvlBSHiXV34QEt7llR+EhHd55Qch4V1e+UFIeJdXfhAS3uWVH4SEd3nlByHhXV75QUh4l1d+EBLe5ZUfhIR3eeUHIeFdXvlB+J/yO0+P/CAkfGqEhI1yNkLCRjkbIWGjnI2QsFHORkjYKGcjJGyUsxESNsrZCAkb5WyEhI1yNkLCRjkbIWGjnI2QsFHORkjYKGcjXBT+ADvYXu2MYPd9AAAAAElFTkSuQmCC"
+            alt="Checker Pattern">
+            <img class="checker" id="checker8" 
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAABlBMVEUAAAD///+l2Z/dAAABtklEQVR4nO3PwQkDARRCwaT/plPBPwhLdGEs4OF8Psm+yUbK2QgJG+VshISNcjZCwkY5GyFho5yNkLBRzkZI2ChnIyRslLMREjbK2QgJG+VshISNcjZCwkY5GyFho5yNkLBRzkZI2ChnI5wUvvF0Vl75QUh4l1d+EBLe5ZUfhIR3eeUHIeFdXvlBSHiXV34QEt7llR+EhHd55Qch4V1e+UFIeJdXfhAS3uWVH4SEd3nlByHhXV75QUh4l1d+EBLe5ZUfhP8pv/P0yA9CwqdGSNgoZyMkbJSzERI2ytkICRvlbISEjXI2QsJGORshYaOcjZCwUc5GSNgoZyMkbJSzERI2ytkICRvlbISEjXI2wknhG09n5ZUfhIR3eeUHIeFdXvlBSHiXV34QEt7llR+EhHd55Qch4V1e+UFIeJdXfhAS3uWVH4SEd3nlByHhXV75QUh4l1d+EBLe5ZUfhIR3eeUHIeFdXvlB+J/yO0+P/CAkfGqEhI1yNkLCRjkbIWGjnI2QsFHORkjYKGcjJGyUsxESNsrZCAkb5WyEhI1yNkLCRjkbIWGjnI2QsFHORkjYKGcjXBT+ADvYXu2MYPd9AAAAAElFTkSuQmCC"
+            alt="Checker Pattern">
+            <img class="checker" id="checker9" 
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAABlBMVEUAAAD///+l2Z/dAAABtklEQVR4nO3PwQkDARRCwaT/plPBPwhLdGEs4OF8Psm+yUbK2QgJG+VshISNcjZCwkY5GyFho5yNkLBRzkZI2ChnIyRslLMREjbK2QgJG+VshISNcjZCwkY5GyFho5yNkLBRzkZI2ChnI5wUvvF0Vl75QUh4l1d+EBLe5ZUfhIR3eeUHIeFdXvlBSHiXV34QEt7llR+EhHd55Qch4V1e+UFIeJdXfhAS3uWVH4SEd3nlByHhXV75QUh4l1d+EBLe5ZUfhP8pv/P0yA9CwqdGSNgoZyMkbJSzERI2ytkICRvlbISEjXI2QsJGORshYaOcjZCwUc5GSNgoZyMkbJSzERI2ytkICRvlbISEjXI2wknhG09n5ZUfhIR3eeUHIeFdXvlBSHiXV34QEt7llR+EhHd55Qch4V1e+UFIeJdXfhAS3uWVH4SEd3nlByHhXV75QUh4l1d+EBLe5ZUfhIR3eeUHIeFdXvlB+J/yO0+P/CAkfGqEhI1yNkLCRjkbIWGjnI2QsFHORkjYKGcjJGyUsxESNsrZCAkb5WyEhI1yNkLCRjkbIWGjnI2QsFHORkjYKGcjXBT+ADvYXu2MYPd9AAAAAElFTkSuQmCC"
+            alt="Checker Pattern">
+            <img class="checker" id="checker10" 
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAABlBMVEUAAAD///+l2Z/dAAABtklEQVR4nO3PwQkDARRCwaT/plPBPwhLdGEs4OF8Psm+yUbK2QgJG+VshISNcjZCwkY5GyFho5yNkLBRzkZI2ChnIyRslLMREjbK2QgJG+VshISNcjZCwkY5GyFho5yNkLBRzkZI2ChnI5wUvvF0Vl75QUh4l1d+EBLe5ZUfhIR3eeUHIeFdXvlBSHiXV34QEt7llR+EhHd55Qch4V1e+UFIeJdXfhAS3uWVH4SEd3nlByHhXV75QUh4l1d+EBLe5ZUfhP8pv/P0yA9CwqdGSNgoZyMkbJSzERI2ytkICRvlbISEjXI2QsJGORshYaOcjZCwUc5GSNgoZyMkbJSzERI2ytkICRvlbISEjXI2wknhG09n5ZUfhIR3eeUHIeFdXvlBSHiXV34QEt7llR+EhHd55Qch4V1e+UFIeJdXfhAS3uWVH4SEd3nlByHhXV75QUh4l1d+EBLe5ZUfhIR3eeUHIeFdXvlB+J/yO0+P/CAkfGqEhI1yNkLCRjkbIWGjnI2QsFHORkjYKGcjJGyUsxESNsrZCAkb5WyEhI1yNkLCRjkbIWGjnI2QsFHORkjYKGcjXBT+ADvYXu2MYPd9AAAAAElFTkSuQmCC"
+            alt="Checker Pattern">
+            <img class="checker" id="checker11" 
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAABlBMVEUAAAD///+l2Z/dAAABtklEQVR4nO3PwQkDARRCwaT/plPBPwhLdGEs4OF8Psm+yUbK2QgJG+VshISNcjZCwkY5GyFho5yNkLBRzkZI2ChnIyRslLMREjbK2QgJG+VshISNcjZCwkY5GyFho5yNkLBRzkZI2ChnI5wUvvF0Vl75QUh4l1d+EBLe5ZUfhIR3eeUHIeFdXvlBSHiXV34QEt7llR+EhHd55Qch4V1e+UFIeJdXfhAS3uWVH4SEd3nlByHhXV75QUh4l1d+EBLe5ZUfhP8pv/P0yA9CwqdGSNgoZyMkbJSzERI2ytkICRvlbISEjXI2QsJGORshYaOcjZCwUc5GSNgoZyMkbJSzERI2ytkICRvlbISEjXI2wknhG09n5ZUfhIR3eeUHIeFdXvlBSHiXV34QEt7llR+EhHd55Qch4V1e+UFIeJdXfhAS3uWVH4SEd3nlByHhXV75QUh4l1d+EBLe5ZUfhIR3eeUHIeFdXvlB+J/yO0+P/CAkfGqEhI1yNkLCRjkbIWGjnI2QsFHORkjYKGcjJGyUsxESNsrZCAkb5WyEhI1yNkLCRjkbIWGjnI2QsFHORkjYKGcjXBT+ADvYXu2MYPd9AAAAAElFTkSuQmCC"
+            alt="Checker Pattern">
+            <img class="checker" id="checker12" 
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAABlBMVEUAAAD///+l2Z/dAAABtklEQVR4nO3PwQkDARRCwaT/plPBPwhLdGEs4OF8Psm+yUbK2QgJG+VshISNcjZCwkY5GyFho5yNkLBRzkZI2ChnIyRslLMREjbK2QgJG+VshISNcjZCwkY5GyFho5yNkLBRzkZI2ChnI5wUvvF0Vl75QUh4l1d+EBLe5ZUfhIR3eeUHIeFdXvlBSHiXV34QEt7llR+EhHd55Qch4V1e+UFIeJdXfhAS3uWVH4SEd3nlByHhXV75QUh4l1d+EBLe5ZUfhP8pv/P0yA9CwqdGSNgoZyMkbJSzERI2ytkICRvlbISEjXI2QsJGORshYaOcjZCwUc5GSNgoZyMkbJSzERI2ytkICRvlbISEjXI2wknhG09n5ZUfhIR3eeUHIeFdXvlBSHiXV34QEt7llR+EhHd55Qch4V1e+UFIeJdXfhAS3uWVH4SEd3nlByHhXV75QUh4l1d+EBLe5ZUfhIR3eeUHIeFdXvlB+J/yO0+P/CAkfGqEhI1yNkLCRjkbIWGjnI2QsFHORkjYKGcjJGyUsxESNsrZCAkb5WyEhI1yNkLCRjkbIWGjnI2QsFHORkjYKGcjXBT+ADvYXu2MYPd9AAAAAElFTkSuQmCC"
+            alt="Checker Pattern">
+            <img class="checker" id="checker13" 
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAABlBMVEUAAAD///+l2Z/dAAABtklEQVR4nO3PwQkDARRCwaT/plPBPwhLdGEs4OF8Psm+yUbK2QgJG+VshISNcjZCwkY5GyFho5yNkLBRzkZI2ChnIyRslLMREjbK2QgJG+VshISNcjZCwkY5GyFho5yNkLBRzkZI2ChnI5wUvvF0Vl75QUh4l1d+EBLe5ZUfhIR3eeUHIeFdXvlBSHiXV34QEt7llR+EhHd55Qch4V1e+UFIeJdXfhAS3uWVH4SEd3nlByHhXV75QUh4l1d+EBLe5ZUfhP8pv/P0yA9CwqdGSNgoZyMkbJSzERI2ytkICRvlbISEjXI2QsJGORshYaOcjZCwUc5GSNgoZyMkbJSzERI2ytkICRvlbISEjXI2wknhG09n5ZUfhIR3eeUHIeFdXvlBSHiXV34QEt7llR+EhHd55Qch4V1e+UFIeJdXfhAS3uWVH4SEd3nlByHhXV75QUh4l1d+EBLe5ZUfhIR3eeUHIeFdXvlB+J/yO0+P/CAkfGqEhI1yNkLCRjkbIWGjnI2QsFHORkjYKGcjJGyUsxESNsrZCAkb5WyEhI1yNkLCRjkbIWGjnI2QsFHORkjYKGcjXBT+ADvYXu2MYPd9AAAAAElFTkSuQmCC"
+            alt="Checker Pattern">
+            <img class="checker" id="checker14" 
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAABlBMVEUAAAD///+l2Z/dAAABtklEQVR4nO3PwQkDARRCwaT/plPBPwhLdGEs4OF8Psm+yUbK2QgJG+VshISNcjZCwkY5GyFho5yNkLBRzkZI2ChnIyRslLMREjbK2QgJG+VshISNcjZCwkY5GyFho5yNkLBRzkZI2ChnI5wUvvF0Vl75QUh4l1d+EBLe5ZUfhIR3eeUHIeFdXvlBSHiXV34QEt7llR+EhHd55Qch4V1e+UFIeJdXfhAS3uWVH4SEd3nlByHhXV75QUh4l1d+EBLe5ZUfhP8pv/P0yA9CwqdGSNgoZyMkbJSzERI2ytkICRvlbISEjXI2QsJGORshYaOcjZCwUc5GSNgoZyMkbJSzERI2ytkICRvlbISEjXI2wknhG09n5ZUfhIR3eeUHIeFdXvlBSHiXV34QEt7llR+EhHd55Qch4V1e+UFIeJdXfhAS3uWVH4SEd3nlByHhXV75QUh4l1d+EBLe5ZUfhIR3eeUHIeFdXvlB+J/yO0+P/CAkfGqEhI1yNkLCRjkbIWGjnI2QsFHORkjYKGcjJGyUsxESNsrZCAkb5WyEhI1yNkLCRjkbIWGjnI2QsFHORkjYKGcjXBT+ADvYXu2MYPd9AAAAAElFTkSuQmCC"
+            alt="Checker Pattern">
+        </div>
+        <div id="socialMediaFrame">
+            <img id="socialMediaIcons"
+            src="https://static.vecteezy.com/system/resources/thumbnails/003/775/685/small/social-media-icons-set-facebook-instagram-twitter-logos-free-vector.jpg"
+            alt="Twitter, Facebook and Instagram Icons">
+        </div>
+    </footer>
+</body>
