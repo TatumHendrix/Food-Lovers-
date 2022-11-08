@@ -1,196 +1,165 @@
-body {
-  margin-left: 0px;
-  display: grid;
-  height: 100%;
-  width: 100%;
+html {
+  border-style: solid;
+  border-width: 5px;
+  width: 99%;
+  z-index: -1;
+  background-color: black;
+  overflow: hidden;
 }
 
   header {
-    display: grid;
-    grid-row: 1 / 2;
-    height: 100px;
- 
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom-style: solid;
 }
 
     #logoIcon {
-      grid-column: 1 / 2;
-      grid-template-columns: auto;
-      background-color: white;
+      display: flex;
+      margin-top: -15px;
+}
+
+    .logoIconPart {
+      position: absolute;
+      margin-left: 10px;
 }
 
       #logoIconPan {
-        width: 60px;
-        height: 30px;
-        position: absolute;
-        margin-left: 31px;
-        margin-top: 28px;
+        width: 140px;
 }
 
         #logoIconPanTop {
-          position: absolute;
           width: 4px;
           height: 4px;
           background-color: black;
           border-radius: 50%;
-          margin-left: 28px;
-          margin-top: 2px;
+          margin-left: 36px;
+          margin-top: 25px;
 }
 
         #logoIconPanStem {
-          position: absolute;
           height: 5px;
           width: 2px;
           background-color: black;
-          margin-left: 29px;
-          margin-top: 4px;
+          margin-left: 37px;
+          margin-top: 25px;
 }
     
         #logoIconPanLid {
-          position: absolute;
           height: 40px;
           width: 50px; 
           background-color: black;
           border-radius: 50%;
-          margin-left: 5px;
-          margin-top: 7px;
+          margin-top: 30px;
+          margin-left: 13px;
 }
 
         #logoIconPanLidCover {
-          position: absolute;
           height: 20px;
           width: 50px;
           background-color: white;
-          margin-left: 5px;
-          margin-top: 30px;
+          margin-top: 50px;
+          margin-left: 13px;
 }
 
         #logoIconPanBase {
-          position: absolute;
           height: 6px;
           width: 56px;
           background-color: black;
           border-radius: 20%;
-          margin-left: 2px;
-          margin-top: 26px;
+          margin-top: 50px;
 }
 
       #logoIconFoodText {
-        position: absolute;
         text-align: center;
         font-size: 14px;
         font-weight: 800;
-        font-family: sans-serif;
-        margin-left: 96px;
-        margin-top: 29px;    
+        font-family: sans-serif;   
+        margin-left: 78px;
+        margin-top: 25px;
 }
 
       #logoIconLoversText {
-        position: absolute;
         text-align: center;
         font-size: 11px;
         font-family: sans-serif;
         font-weight: 700;
-        margin-left: 96px;
-        margin-top: 48px;
+        margin-left: 77px;
+        margin-top: 44px;
 }
 
-      #logoIconWebsite {
+      #phoneNumber {
         position: absolute;
-        margin-top: 62px;
-        margin-left: 25px;
-        font-family: sans-serif;
-}
+        margin-top: 60px;
+        margin-left: 8px;
+      }
 
+      #email {
+        position: absolute;
+        margin-top: 75px;
+        margin-left: 8px;
+      }
+    /*start of icons on header between the pan and the navbar*/  
     #headerIconsParent {
-      grid-column: 2 / 3;
-      margin-left: 20px;
-      margin-top: 10px;
-}
-      
-      #spaghettiImg {
-        position: absolute;
-        width: 110px;
-        height: 80px;
-        object-fit: fill;
-        margin-left: 50px;
-        z-index: 1;
+      display: flex;
+      margin-left: 30px;
+} 
+
+  #spaghettiImg {
+  width: 110px;
+  height: 80px;
 }
 
-      #wineImg {
-        position: absolute;
-        width: 80px;
-        height: 65px;
-        margin-left: 140px;
-        margin-top: 8px
+#wineImg {
+  width: 80px;
+  height: 65px;
+  margin-top: 5px;
 }
 
-      #lobsterImg {
-        position: absolute;
-        height: 60px;
-        width: 100px;
-        margin-left: 196px;
-        margin-top: 11px;
+#lobsterImg {
+  height: 60px;
+  width: 100px;
+  margin-top: 6px;
 }
-
+/*end of icons*/
     #navBar {
-      grid-column: 4 / 7;
-      display: grid;
-      width: 72%;
-      margin-left: 28%;
-      justify-content: space-evenly;
-      margin-top: -10px;
-      padding-bottom: 25px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 800px;
 }
 
       .navItem {
-        margin-top: 30px;
-        margin-left: 10px;
-        text-align: center;
+        display: flex;
+        justify-content: center;
         font-family: "Fleur De Leah", cursive;
         font-size: 25px;
-        width: 110px;
+        width: 120px;
+        height: 40px;
         border-style: double;
         border-radius: 30px;
-        padding-top: 8px;
+        margin: auto;
 }
 
       .navItem:hover {
         background-color: rgba(80,80,80,0.2);
 }
 
-      #home {
-        grid-column: 1 / 2;
-}
-
-      #about {
-        grid-column: 2 / 3;
-}
-
-      #registration {
-        grid-column: 3 / 4;
-}
-
-      #contact {
-        grid-column: 4 / 5;
-}
-
       #searchBar {
-        grid-column: 5 / 6;
         height: 30px;
-        margin-top: 32px;
-        margin-left: 20px;
         border-radius: 30px;
         padding-left: 20px;
         border-style: solid;
         border-color: black;
+        margin: auto;
+        margin-left: 20px;
 }
 
   section {
-    grid-row: 2 / 8;
     height: 400px;
-    border-top-style: solid;
-    background-color: rgba(0,0,0,0.2);
-    z-index: 0;
+    background-color: rgb(160,160,160);
+    z-index: -1;
 }
 
     .sectionHeader {
@@ -217,7 +186,7 @@ body {
       font-size: 24px;
       text-indent: 40px;
 }
-
+/* slideshow base style start */
     #dishImgSlideshow {
       position: absolute;
       width: 300px;
@@ -225,7 +194,8 @@ body {
       border-left-style: solid;
       border-right-style: solid;
       margin-left: 1000px;
-      z-index: -1;
+      z-index: 1;
+      overflow: hidden;
 }
 
       .dishImg {
@@ -239,45 +209,45 @@ body {
 
         #spaghettiDishImg {
           position: absolute;
-          margin-top: -3px;
           height: 202px;
         }
 
         #shrimpDishImg {
           position: absolute;
           height: 202px;
-          margin-top: 198px;
         }
 
         #cheesecakeDishImg {
           position: absolute;
-          display: none;
+          height: 202px;
         }
 
         #wineDishImg {
           position: absolute;
-          display: none;
+          height: 202px;
         }
 
         #saladDishImg {
           position: absolute;
-          display: none;
+          height: 202px;
         }
-
+/* end of slideshow style */
   footer {
     position: relative;
-    grid-row: 8 / 9;
     height: 120px;
-    width: 100%;
     background-color: white;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-bottom-width: 10px;
+    border-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: 1px;
+    border-right-color: white;
+    border-right-width: 1px;
     z-index: 2;
 }
 
     #botLeftDesign {
       position: absolute;
+      margin-left: -10px;
+      margin-top: 18px;
       z-index: 3;
     }
 
@@ -311,25 +281,17 @@ body {
       }
 
       #middleFill {
-        width: 20px;
-        height: 20px;
+        width: 27px;
+        height: 25px;
         border-style: solid;
         border-width: 10px;
-        border-radius: 50%;
+        border-radius: 20%;
         border-top: none;
         border-right: none;
         background-color: transparent;
         margin-left: 80px;
-        margin-top: 18px;
+        margin-top: 12px;
         transform: rotate(358deg);
-      }
-
-      #middleCover {
-        
-      }
-      
-      #middleCover2 {
-        
       }
 
       #bldBot {
@@ -359,7 +321,7 @@ body {
 
     #checkerPattern {
       position: absolute;
-      margin-left: -31px;
+      margin-left: -49px;
     }
       
       .checker {
@@ -423,22 +385,3 @@ body {
       #checker14 {
         margin-left: 1260px;
       }
-
-    #socialMediaFrame {
-      position: absolute;
-      height: 82px;
-      width: 216px;
-      border-style: solid;
-      border-color: white;
-      background-color: black;
-      margin-top: 19px;
-      margin-left: 1109px;
-    }
-
-      #socialMediaIcons {
-        width: 190px;
-        height: 56px;
-        margin-top: 13px;
-        margin-left: 13px;
-      }
-
